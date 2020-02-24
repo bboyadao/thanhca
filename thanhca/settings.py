@@ -38,7 +38,7 @@ DJANGO_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
-THIRD_PARTY_APPS = ['drf_yasg', 'rest_framework']
+THIRD_PARTY_APPS = ['drf_yasg', 'rest_framework', 'django_extensions']
 LOCAL_APPS = []
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 
