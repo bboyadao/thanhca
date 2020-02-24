@@ -11,7 +11,7 @@ RUN apk update \
   && apk add jpeg-dev zlib-dev freetype-dev lcms2-dev openjpeg-dev tiff-dev tk-dev tcl-dev \
   # CFFI dependencies
   && apk add libffi-dev py-cffi
-  && apt-get install -y binutils libproj-dev gdal-bin
+#  && apt-get install -y binutils libproj-dev gdal-bin
 
 RUN addgroup -S django \
     && adduser -S -G django django
