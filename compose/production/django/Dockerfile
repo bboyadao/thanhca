@@ -1,5 +1,5 @@
 
-FROM python:3.7-alpine
+FROM python:3.8-alpine
 
 ENV PYTHONUNBUFFERED 1
 
@@ -12,7 +12,7 @@ RUN apk update \
   # CFFI dependencies
   && apk add libffi-dev py-cffi
   && apt-get install -y binutils libproj-dev gdal-bin
-  
+
 RUN addgroup -S django \
     && adduser -S -G django django
 
