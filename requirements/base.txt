@@ -6,3 +6,8 @@ drf-yasg
 drf-yasg[validation]
 django-extensions
 isort
+Werkzeug
+ipython
+pygraphviz
+pyparsing
+pydot
